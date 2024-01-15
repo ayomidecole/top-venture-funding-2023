@@ -8,10 +8,13 @@ _This might not follow the order of operations in the Jupyter Notebook but this 
 
 1. I examined the dataset to see what it was about.
 2. I wanted to know which indusry had the most funding rounds in the dataset, so I created a pivot table showing the count by industry. BioTech funding rounds lead the pack followed by AI.
-3. I also created a bar chart to visualize the top 5 industries by funding rounds.
-4. I wanted to dig deeper into this and compare the funding rounds for Biotech and AI. I checked the datatype for the funding amount (amount) column, the column was an object datatype so I converted it to float so that I could run numerical operations.
-5. The funding rounds were mostly in millions and billions so to make the data easier to interact with, I converted them all to billions by dividing the column by 10^9.
-6. With this I could calculate which industry had the most money come in. I separated Biotech and AI funding rounds into 2 dataframes to complete this analysis.
-7. I found that even though there were more BioTech deals done. AI brought in more funding dollars than Biotech which tracks with the AI hype cycle.
+4. I also created a bar chart to visualize the top 5 industries by funding rounds.
+5. I wanted to dig deeper into this and compare the funding rounds for Biotech and AI. I checked the datatype for the funding amount (amount) column, the column was an object datatype so I converted it to float so that I could run numerical operations.
+6. The funding rounds were mostly in millions and billions so to make the data easier to interact with, I converted them all to billions by dividing the column by 10^9.
+7. With this I could calculate which industry had the most money come in. I separated Biotech and AI funding rounds into 2 dataframes to complete this analysis.
+8. I found that even though there were more BioTech deals done. AI brought in more funding dollars than Biotech which tracks with the AI hype cycle.
 
 Enjoy and feel free to mess with the data yourself and see if you find different insights.
+
+## Updates
+1. 01/15/2023 - I added in a value_counts() method as it is an alternate way to check the number of Investments per Industry, this is easier than using a pivot table.
